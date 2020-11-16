@@ -1,19 +1,26 @@
 {
-  "name": "ES6 Modules HW",
-  "version": "0.0.0",
+  "name": "es6_modules",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
+  "dependencies": {
     "babel-plugin-add-module-exports": "^1.0.4",
     "babel-preset-es2015-node5": "^1.2.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node index.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephp23/ES6_Modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephp23/ES6_Modules/issues"
+  },
+  "homepage": "https://github.com/stephp23/ES6_Modules#readme"
 }
